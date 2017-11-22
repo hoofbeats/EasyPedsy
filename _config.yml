@@ -1,0 +1,24 @@
+title: EasyPedsy
+email: HoofbeatsHealth@gmail.com
+description: Easy peasy clinical information exchange
+baseurl: ""
+url: "https://hoofbeats.github.io/EasyPedsy"
+twitter_username: HoofbeatsHealth
+github_username:  Hoofbeats
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+exclude: [
+  "node_modules",
+  "LICENSE",
+  "package.json",
+  "README.md",
+  "Gemfile",
+  "gulpfile.babel.js",
+  ".babelrc",
+  ".gitignore",
+  "sass",
+  "scss",
+  "validate"
+]
