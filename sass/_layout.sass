@@ -84,6 +84,8 @@
  * Site footer
  */
 .site-footer
+    //position: relative
+    //bottom: -15em
     border-top: 1px solid $grey-color-light
     padding: $spacing-unit 0
 
@@ -213,3 +215,28 @@
 
         @include media-query($on-laptop)
             font-size: 18px
+
+body > .page-container
+  height: 100vh
+  width: 100vw
+
+.home > h1
+  height: 30vh
+  top: 0
+  left: 0
+  right: 0
+
+amp-accordion section
+  header, h1, h2, h3, h4, h5, h6, p, div
+    background-color: initial
+    border: 0
+
+#appnav
+  section
+    background-color: transparentize(#ffffff, 0.85)
+    padding: 2em
+    //border: 0.0625rem solid $brand-gray
+    margin-bottom: 0.5rem
+    h2
+      background-color: initial
+      border: 0

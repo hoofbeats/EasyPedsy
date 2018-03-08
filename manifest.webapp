@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "name": "EasyPedsy",
+  "name": "ezPeds",
   "launch_path": "/index.html",
-  "description": "Easy peasy clinical information exchange",
+  "description": "ez clinical information exchange",
   "icons": {
     "128": "/images/touch/icon-128x128.png"
   },
@@ -18,8 +18,8 @@
   },
   "locales": {
     "en": {
-      "name": "EasyPedsy",
-      "description": "Easy peasy clinical information exchange"
+      "name": "ezPeds",
+      "description": "ez clinical information exchange"
     }
   }
 }

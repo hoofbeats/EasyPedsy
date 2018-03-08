@@ -4,21 +4,37 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">{{site.title}}</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
+  <nav id="appnav">
+    <amp-accordion>
+      <section>
+        <h2 class="section-heading">For Teachers</h2>
+        <div>.</div>
+      </section>
+      <section>
+        <h2 class="section-heading">For Parents</h2>
+        <div>.</div>
+      </section>
+      <section>
+        <h2 class="section-heading">For Physicians</h2>
+        <div>.</div>
+      </section>
+    </amp-accordion>
+    </nav>
+
+  <ul class="app-list">
+    {% for app in site.apps %}
+    <!--{% if app.group == 'parent' %}-->
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <p>
+          <a class="app-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
+        </p>
+        </li>
+      <!--{% endif %}-->
+      {% endfor %}
+    </ul>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
 
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 
 </div>

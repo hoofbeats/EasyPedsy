@@ -1,8 +1,8 @@
-# EasyPedsy
+# ezPeds
 
 [![license][license-image]][license-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][dependencyci-image]][dependencyci-url]
 
-> Easy peasy clinical information exchange
+> ez clinical information exchange
 
 ## Prerequisites
 

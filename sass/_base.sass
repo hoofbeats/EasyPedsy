@@ -16,8 +16,8 @@ body
     font-size: $base-font-size
     line-height: $base-line-height
     font-weight: 300
-    color: $text-color
-    background-color: $background-color
+    //color: $background-color
+    background-color: $brand-color
     -webkit-text-size-adjust: 100%
 
 
@@ -74,16 +74,18 @@ h1, h2, h3, h4, h5, h6
  * Links
  */
 a
-    color: $brand-color
+    color: $background-color
     text-decoration: none
 
     &:visited
-        color: darken($brand-color, 15%)
+        //color: darken($brand-color, 15%)
+        color: $brand-gray
 
 
     &:hover
-        color: $text-color
-        text-decoration: underline
+        //color: $text-color
+        //text-decoration: underline
+        color: $brand-gray
 
 
 /**
@@ -168,4 +170,5 @@ pre
         vertical-align: middle
 
         path
-            fill: $grey-color
+            //fill: $grey-color
+            fill: $brand-gray

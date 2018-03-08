@@ -1,7 +1,7 @@
 {
-  "name": "EasyPedsy",
+  "name": "ezPeds",
   "version": "1.0.0",
-  "description": "Easy peasy clinical information exchange",
+  "description": "ez clinical information exchange",
   "scripts": {
     "start": "gulp serve",
     "build": "gulp build",
@@ -34,6 +34,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hoofbeats/EasyPedsy.git"
+    "url": "https://github.com/hoofbeats/ezPeds.git"
   }
 }
